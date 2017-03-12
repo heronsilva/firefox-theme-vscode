@@ -3,9 +3,9 @@
 ### Inspired by the Mozila Firefox' dark devtools theme.
 
 ## Dark version
-![Dark version] (https://raw.githubusercontent.com/HeronSilva/FirefoxDevTools.tmTheme/dark-version.png)
+![Dark version] (https://github.com/HeronSilva/FirefoxDevTools.tmTheme/blob/master/dark-version.png)
 
 ## Darker version
-![Daker version] (https://raw.githubusercontent.com/HeronSilva/FirefoxDevTools.tmTheme/daker-version.png)
+![Daker version] (https://github.com/HeronSilva/FirefoxDevTools.tmTheme/blob/master/darker-version.png)
 
 #### Enjoy :)
