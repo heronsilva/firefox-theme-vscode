@@ -4,7 +4,10 @@
     "description": "Mozilla Firefox developer tools theme for VS Code.",
     "version": "0.0.1",
     "publisher": "Heron",
-    "icon": "./icon.png",
+    "repository": {
+        "url": "https://github.com/HeronSilva/FirefoxDevTools.tmTheme/"
+    },
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.10.0"
     },
