@@ -291,6 +291,29 @@
 				<string>#E9F4FE</string>
 			</dict>
 		</dict>
+		<!-- CSS VALUES -->
+		<dict>
+			<key>name</key>
+			<string>CSS .class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#10c970</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Unit</string>
+			<key>scope</key>
+			<string>keyword.other.unit.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#eb5368</string>
+			</dict>
+		</dict>
 	</array>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
