@@ -2,7 +2,7 @@
     "name": "firefox-devtools-theme",
     "displayName": "Firefox DevTools Theme",
     "description": "Mozilla Firefox developer tools theme for VS Code.",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "Heron",
     "repository": {
         "url": "https://github.com/HeronSilva/FirefoxDevTools.tmTheme/"
@@ -16,6 +16,11 @@
     ],
     "contributes": {
         "themes": [
+            {
+                "label": "Firefox DevTools Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/FirefoxDevToolsLight.json"
+            },
             {
                 "label": "Firefox DevTools Dark Theme",
                 "uiTheme": "vs-dark",
