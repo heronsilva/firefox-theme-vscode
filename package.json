@@ -24,12 +24,12 @@
             {
                 "label": "Firefox DevTools Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/FirefoxDevToolsDark.tmTheme"
+                "path": "./themes/FirefoxDevToolsDark.json"
             },
             {
                 "label": "Firefox DevTools Darker Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/FirefoxDevToolsDarker.tmTheme"
+                "path": "./themes/FirefoxDevToolsDarker.json"
             }
         ]
     }
