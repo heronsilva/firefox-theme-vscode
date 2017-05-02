@@ -369,8 +369,8 @@
     "inputBoxBackground": "#393F4C",
     "inputBoxForeground": "#B6BABF",
     "inputBoxActiveOptionBorder": "#EB5368",
-    "activeTabBackground": "#393F4C",
-    "inactiveTabBackground": "#272B35",
+    "activeTabBackground": "#272B35",
+    "inactiveTabBackground": "#393F4C",
     "tabsContainerBackground": "#272B35",
     "focusedElementOutline": "#B6BABF"
   }
