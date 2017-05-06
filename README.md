@@ -1,14 +1,15 @@
-# Mozilla Firefox developer tools theme for VS Code
+# Mozilla Firefox Developer Tools Theme for VS Code
 
-### Inspired by the Mozila Firefox' dark devtools theme.
+## Based on Mozila Firefox' Developer Tools
+### I would love to receive your feedback :)
 
-## Dark version
+### Enjoy \o/
+
+#### Dark version
 ![Dark version](dark-version.png)
 
-## Light version
+#### Light version
 ![Light version](light-version.png)
 
-## Darker version
+#### Darker version
 ![Daker version](darker-version.png)
-
-#### Enjoy :)
