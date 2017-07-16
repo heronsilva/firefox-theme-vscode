@@ -8,6 +8,23 @@
         "url": "https://github.com/HeronSilva/FirefoxDevTools.tmTheme/"
     },
     "icon": "icon.png",
+    "badges": [
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg",
+            "description": "Current version",
+            "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg",
+            "description": "Installs",
+            "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg",
+            "description": "Rating",
+            "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details"
+        }
+    ],
     "engines": {
         "vscode": "^1.10.0"
     },

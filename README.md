@@ -1,7 +1,10 @@
 # Mozilla Firefox Developer Tools Theme for VS Code
 
 ## Based on Mozila Firefox' Developer Tools
-### I would love to receive your feedback :)
+
+[![Current version](https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg)](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg)](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme)
+[![Rating](https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg)](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details)
 
 ### Enjoy \o/
 
