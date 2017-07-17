@@ -13,6 +13,3 @@
 
 #### Light version
 ![Light version](light-version.png)
-
-#### Darker version
-![Daker version](darker-version.png)
