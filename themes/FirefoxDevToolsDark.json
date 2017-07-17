@@ -56,7 +56,7 @@
       "name": "Keyword",
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#E9F4FE"
+        "foreground": "#A7A6C5"
       }
     },
     {
@@ -125,7 +125,14 @@
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#A9BACB"
+        "foreground": "#E9F4FE"
+      }
+    },
+    {
+      "name": "Punctuation acessor",
+      "scope": "punctuation.accessor",
+      "settings": {
+        "foreground": "#667380"
       }
     },
     {
@@ -222,7 +229,6 @@
       "scope": [
         "support.function.dom.js",
         "support.variable.property.dom.js",
-        "variable.other.property.js",
         "constant.language.undefined.js",
         "variable.other.object.property.js",
         "keyword.operator.comparison.js"
@@ -233,16 +239,29 @@
     },
     {
       "name": "Other",
+      "scope": "variable.other.property.js",
+      "settings": {
+        "foreground": "#F5F7FA"
+      }
+    },
+    {
+      "name": "Other",
+      "scope": "keyword.control.flow.js",
+      "settings": {
+        "foreground": "#EB5368"
+      }
+    },
+    {
+      "name": "Other",
       "scope": "variable.language.this.js",
       "settings": {
-        "foreground": "#10C970"
+        "foreground": "#A7A6C5"
       }
     },
     {
       "name": "Other",
       "scope": [
         "support.variable.dom.js",
-        "support.function.js",
         "variable.other.object.js",
         "variable.other.readwrite.js"
       ],
@@ -251,27 +270,16 @@
       }
     },
     {
-      "name": "Function name",
-      "scope": "entity.name.function.js",
-      "settings": {
-        "foreground": "#A7A6C5"
-      }
-    },
-    {
-      "name": "Other",
-      "scope": "meta.brace.square.js",
-      "settings": {
-        "foreground": "#A7A6C5"
-      }
-    },
-    {
       "name": "Other",
       "scope": [
-        "storage.type.function.js",
-        "storage.type.js"
+        "meta.brace.square.js",
+        "meta.brace.round.js",
+        "punctuation.definition.block.js",
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.end.js"
       ],
       "settings": {
-        "foreground": "#10C970"
+        "foreground": "#A7A6C566"
       }
     },
     {
