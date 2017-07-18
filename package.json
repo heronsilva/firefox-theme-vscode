@@ -42,11 +42,6 @@
                 "label": "Firefox DevTools Dark Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/FirefoxDevToolsDark.json"
-            },
-            {
-                "label": "Firefox DevTools Darker Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/FirefoxDevToolsDarker.json"
             }
         ]
     }
