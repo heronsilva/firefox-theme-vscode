@@ -49,7 +49,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#10C970"
+        "foreground": "#FFFFB4"
       }
     },
     {
@@ -63,7 +63,7 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#A7A6C5"
+        "foreground": "#FFFFB4"
       }
     },
     {
@@ -118,6 +118,7 @@
       "scope": "entity.other.inherited-class",
       "fontStyle": "italic",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "#EB5368"
       }
     },
@@ -152,9 +153,7 @@
     {
       "name": "Tag attribute",
       "scope": [
-        "meta.tag.structure.any.html",
-        "punctuation.definition.string.begin.html",
-        "punctuation.definition.string.end.html"
+        "meta.tag.structure.any.html"
       ],
       "settings": {
         "foreground": "#E9F4FE"
@@ -164,10 +163,11 @@
       "name": "Tag attribute",
       "scope": [
         "entity.other.attribute.name",
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.id.html"
       ],
       "settings": {
-        "foreground": "#A3A1C0"
+        "foreground": "#E6B064"
       }
     },
     {
@@ -214,12 +214,19 @@
         "string.quoted.double"
       ],
       "settings": {
-        "foreground": "#E9F4FE"
+        "foreground": "#FFFFB4"
       }
     },
     {
       "name": "Storage type",
       "scope": "storage.type",
+      "settings": {
+        "foreground": "#FFFFB4"
+      }
+    },
+    {
+      "name": "Other",
+      "scope": "variable.language.this",
       "settings": {
         "foreground": "#A7A6C5"
       }
@@ -228,10 +235,7 @@
     {
       "name": "Other",
       "scope": [
-        "support.function.dom.js",
-        "support.variable.property.dom.js",
         "constant.language.undefined.js",
-        "variable.other.object.property.js",
         "keyword.operator.comparison.js"
       ],
       "settings": {
@@ -247,16 +251,16 @@
     },
     {
       "name": "Other",
-      "scope": "keyword.control.flow.js",
+      "scope": "support.variable.property.dom.js",
       "settings": {
-        "foreground": "#EB5368"
+        "foreground": "#FFFFB4"
       }
     },
     {
       "name": "Other",
-      "scope": "variable.language.this.js",
+      "scope": "keyword.control.flow.js",
       "settings": {
-        "foreground": "#A7A6C5"
+        "foreground": "#EB5368"
       }
     },
     {
@@ -283,6 +287,35 @@
         "foreground": "#A7A6C566"
       }
     },
+    {
+      "name": "Other",
+      "scope": "string.template.js",
+      "settings": {
+        "foreground": "#FFFFB4"
+      }
+    },
+    {
+      "name": "Other",
+      "scope": "meta.template.expression.js",
+      "settings": {
+        "foreground": "#EB5368"
+      }
+    },
+    // JSON
+    {
+      "name": "Other",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#EB5368"
+      }
+    },
+    {
+      "name": "Other",
+      "scope": "meta.structure.dictionary.json",
+      "settings": {
+        "foreground": "#A7A6C555"
+      }
+    },
     // CSS
     {
       "name": "Other",
@@ -295,8 +328,10 @@
       "name": "Other",
       "scope": [
         "constant.numeric.css",
-        "support.function.url.css",
         "meta.function.url.css",
+        "meta.property-value.css",
+        "support.constant.property-value.css",
+        "support.function.url.css",
         "support.function.misc.css",
         "keyword.other.unit.px.css",
         "keyword.other.unit.pt.css",
@@ -307,8 +342,7 @@
         "keyword.other.unit.vh.css",
         "keyword.other.unit.vw.css",
         "keyword.other.unit.s.css",
-        "meta.property-value.css",
-        "support.constant.property-value.css",
+        "keyword.other.unit.deg.css",
         "keyword.other.unit.scss"
       ],
       "settings": {
@@ -349,17 +383,12 @@
     },
     {
       "name": "Other",
-      "scope": "support.type.vendored.property-name.css",
+      "scope": [
+        "support.type.vendored.property-name.css",
+        "support.constant.vendored.property-value.css"
+      ],
       "settings": {
         "foreground": "#667382"
-      }
-    },
-    // PHP
-    {
-      "name": "Other",
-      "scope": "variable.other.property.php",
-      "settings": {
-        "foreground": "#B6BABF"
       }
     }
   ],
@@ -472,9 +501,9 @@
 
     "activityBar.background": "#393F4C",
     "activityBarBadge.background": "#EB5368",
-    "activityBar.dropBackground": "#10C970",
+    "activityBar.dropBackground": "#2B303A",
     "activityBar.foreground": "#F5F7FA",
-    "activityBarBadge.foreground": "#F5F7FA",
+    "activityBarBadge.foreground": "#FFFFB4",
 
     "panel.background": "#272B35",
     // "panel.border": "",
