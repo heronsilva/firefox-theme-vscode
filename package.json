@@ -36,17 +36,17 @@
             {
                 "label": "Firefox light",
                 "uiTheme": "vs",
-                "path": "./themes/FirefoxDevToolsLight.json"
+                "path": "./themes/Light.json"
             },
             {
                 "label": "Firefox dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/FirefoxDevToolsDark.json"
+                "path": "./themes/Dark.json"
             },
             {
                 "label": "Firefox dark (upcoming)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/FirefoxDevToolsBetaDark.json"
+                "path": "./themes/DarkUpcoming.json"
             }
         ]
     }
