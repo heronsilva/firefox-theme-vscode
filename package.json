@@ -34,14 +34,19 @@
     "contributes": {
         "themes": [
             {
-                "label": "Firefox DevTools Light Theme",
+                "label": "Firefox light",
                 "uiTheme": "vs",
                 "path": "./themes/FirefoxDevToolsLight.json"
             },
             {
-                "label": "Firefox DevTools Dark Theme",
+                "label": "Firefox dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/FirefoxDevToolsDark.json"
+            },
+            {
+                "label": "Firefox dark (upcoming)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/FirefoxDevToolsBetaDark.json"
             }
         ]
     }
