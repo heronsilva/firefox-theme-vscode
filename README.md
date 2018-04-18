@@ -9,7 +9,7 @@
 ### Enjoy \o/
 
 #### Dark version
-![Dark version](dark-version.png)
+![Dark version](dark.png)
 
 #### Light version
-![Light version](light-version.png)
+![Light version](light.png)
