@@ -4,6 +4,7 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Installs&style=flat-square&colorA=434346&colorB=86DE74)](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=86DE74)](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details)
 
+![Theme Icon](icon.svg)
 ## A VS Code theme based on Mozilla Firefox' developer tools
 
 ### Enjoy \o/
