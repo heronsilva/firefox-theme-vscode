@@ -2,7 +2,7 @@
     "name": "firefox-theme",
     "displayName": "Firefox Theme",
     "description": "A VS Code theme based on Mozilla Firefox' developer tools",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "publisher": "Heron",
     "author": {
         "name": "Heron Silva"
