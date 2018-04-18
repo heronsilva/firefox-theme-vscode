@@ -1,5 +1,5 @@
 {
-    "name": "firefox-theme",
+    "name": "firefox-devtools-theme",
     "displayName": "Firefox Theme",
     "description": "A VS Code theme based on Mozilla Firefox' developer tools",
     "version": "3.0.0",
