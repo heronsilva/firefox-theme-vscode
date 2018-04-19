@@ -303,9 +303,9 @@
         // JS
         {
             "scope": [
-                "constant.language.undefined.js",
-                "keyword.operator.comparison.js",
-                "keyword.operator.logical.js",
+                "constant.language.undefined",
+                "keyword.operator.comparison",
+                "keyword.operator.logical",
                 "keyword.operator.assignment"
             ],
             "settings": {
@@ -314,19 +314,25 @@
         },
         {
             "scope": [
-                "variable.other.property.js",
-                "variable.other.object.property.js",
-                "meta.object-literal.key.js",
-                "meta.object.member.js",
-                "entity.name.function.js"
+                "variable.other.property",
+                "variable.other.object.property",
+                "meta.object-literal.key",
+                "meta.object.member",
+                "entity.name.function"
             ],
             "settings": {
                 "foreground": "#86DE74"
             }
         },
         {
+            "scope": "entity.name.function",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
             "scope": [
-                "meta.object.member.js"
+                "meta.object.member"
             ],
             "settings": {
                 "foreground": "#B98EFF"
@@ -339,15 +345,15 @@
             }
         },
         {
-            "scope": "keyword.control.flow.js",
+            "scope": "keyword.control.flow",
             "settings": {
                 "foreground": "#FF7DE9"
             }
         },
         {
             "scope": [
-                "variable.other.object.js",
-                "entity.name.type.module.js"
+                "variable.other.object",
+                "entity.name.type.module"
             ],
             "settings": {
                 "foreground": "#75BFFF"
@@ -355,57 +361,57 @@
         },
         {
             "scope": [
-                "meta.brace.square.js",
-                "meta.brace.round.js",
-                "punctuation.definition.block.js",
-                "punctuation.definition.parameters.begin.js",
-                "punctuation.definition.parameters.end.js"
+                "meta.brace.square",
+                "meta.brace.round",
+                "punctuation.definition.block",
+                "punctuation.definition.parameters.begin",
+                "punctuation.definition.parameters.end"
             ],
             "settings": {
                 "foreground": "#D8D8E0"
             }
         },
         {
-            "scope": "string.template.js",
+            "scope": "string.template",
             "settings": {
                 "foreground": "#FFFFB4"
             }
         },
         {
-            "scope": "meta.template.expression.js",
+            "scope": "meta.template.expression",
             "settings": {
                 "foreground": "#CC3D3D"
             }
         },
         {
-            "scope": "variable.other.constant.property.js",
+            "scope": "variable.other.constant.property",
             "settings": {
                 "foreground": "#86DE74"
             }
         },
         {
-            "scope": ["entity.name.type.js"],
+            "scope": ["entity.name.type"],
             "settings": {
                 "foreground": "#86DE74"
             }
         },
         // JSON
         {
-            "scope": "support.type.property-name.json",
+            "scope": "support.type.property-nameon",
             "settings": {
                 "foreground": "#75BFFF"
             }
         },
         {
-            "scope": "string.quoted.double.json",
+            "scope": "string.quoted.doubleon",
             "settings": {
                 "foreground": "#FF7DE9"
             }
         },
         {
             "scope": [
-                "constant.language.json",
-                "constant.numeric.json"
+                "constant.languageon",
+                "constant.numericon"
             ],
             "settings": {
                 "foreground": "#86DE74"
@@ -525,8 +531,8 @@
         // JS
         {
             "scope": [
-                "string.quoted.single.js",
-                "string.quoted.double.js"
+                "string.quoted.single",
+                "string.quoted.double"
             ],
             "settings": {
                 "foreground": "#6B89FF"

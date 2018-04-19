@@ -297,9 +297,9 @@
         // JS
         {
             "scope": [
-                "constant.language.undefined.js",
-                "keyword.operator.comparison.js",
-                "keyword.operator.logical.js",
+                "constant.language.undefined",
+                "keyword.operator.comparison",
+                "keyword.operator.logical",
                 "keyword.operator.assignment"
             ],
             "settings": {
@@ -308,19 +308,25 @@
         },
         {
             "scope": [
-                "variable.other.property.js",
-                "variable.other.object.property.js",
-                "meta.object-literal.key.js",
-                "meta.object.member.js",
-                "entity.name.function.js"
+                "variable.other.property",
+                "variable.other.object.property",
+                "meta.object-literal.key",
+                "meta.object.member",
+                "entity.name.function"
             ],
             "settings": {
                 "foreground": "#058B00"
             }
         },
         {
+            "scope": "entity.name.function",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
             "scope": [
-                "meta.object.member.js"
+                "meta.object.member"
             ],
             "settings": {
                 "foreground": "#8000D7"
@@ -333,15 +339,15 @@
             }
         },
         {
-            "scope": "keyword.control.flow.js",
+            "scope": "keyword.control.flow",
             "settings": {
                 "foreground": "#DD00A9"
             }
         },
         {
             "scope": [
-                "variable.other.object.js",
-                "entity.name.type.module.js"
+                "variable.other.object",
+                "entity.name.type.module"
             ],
             "settings": {
                 "foreground": "#8000D7"
@@ -349,36 +355,36 @@
         },
         {
             "scope": [
-                "meta.brace.square.js",
-                "meta.brace.round.js",
-                "punctuation.definition.block.js",
-                "punctuation.definition.parameters.begin.js",
-                "punctuation.definition.parameters.end.js"
+                "meta.brace.square",
+                "meta.brace.round",
+                "punctuation.definition.block",
+                "punctuation.definition.parameters.begin",
+                "punctuation.definition.parameters.end"
             ],
             "settings": {
                 "foreground": "#4A4A4F"
             }
         },
         {
-            "scope": "string.template.js",
+            "scope": "string.template",
             "settings": {
                 "foreground": "#FFF89E"
             }
         },
         {
-            "scope": "meta.template.expression.js",
+            "scope": "meta.template.expression",
             "settings": {
                 "foreground": "#E52E2E"
             }
         },
         {
-            "scope": "variable.other.constant.property.js",
+            "scope": "variable.other.constant.property",
             "settings": {
                 "foreground": "#058B00"
             }
         },
         {
-            "scope": ["entity.name.type.js"],
+            "scope": ["entity.name.type"],
             "settings": {
                 "foreground": "#058B00"
             }
@@ -386,23 +392,23 @@
         // JSON
         {
             "scope": [
-                "support.type.property-name.json",
-                "meta.structure.array.json"
+                "support.type.property-nameon",
+                "meta.structure.arrayon"
             ],
             "settings": {
                 "foreground": "#0074E8"
             }
         },
         {
-            "scope": "string.quoted.double.json",
+            "scope": "string.quoted.doubleon",
             "settings": {
                 "foreground": "#E437BB"
             }
         },
         {
             "scope": [
-                "constant.language.json",
-                "constant.numeric.json"
+                "constant.languageon",
+                "constant.numericon"
             ],
             "settings": {
                 "foreground": "#1F971B"
