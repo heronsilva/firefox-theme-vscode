@@ -45,6 +45,11 @@
                 "label": "Firefox Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Dark.json"
+            },
+            {
+                "label": "Firefox Dark (Previous)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DarkPrevious.json"
             }
         ]
     }
