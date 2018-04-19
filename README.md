@@ -5,7 +5,7 @@
 [![Rating](https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=B98EFF)](https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details)
 
 <p align="center" style="margin-top: 30px;">
-    <img src="icon.svg.png" alt="Firefox Theme for VS Code">
+    <img src="https://raw.githubusercontent.com/heronsilva/vscode-firefox-theme/master/icon.svg.png" alt="Firefox Theme for VS Code">
 </p>
 
 <h2 align="center">
