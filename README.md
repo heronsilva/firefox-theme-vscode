@@ -15,7 +15,7 @@
         <img src="https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=10C970" alt="Current version">
     </a>
     <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" title="Install Count">
-        <img src="https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Install Count&style=flat-square&colorA=434346&colorB=10C970" alt="Installs">
+        <img src="https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Install%20Count&style=flat-square&colorA=434346&colorB=10C970" alt="Install Count">
     </a>
     <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details" title="Rating">
         <img src="https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=10C970" alt="Rating">
