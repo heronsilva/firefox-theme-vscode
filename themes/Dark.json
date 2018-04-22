@@ -300,7 +300,6 @@
                 "foreground": "#FF7DE9"
             }
         },
-        // JS
         {
             "scope": [
                 "constant.language.undefined",
@@ -400,7 +399,6 @@
                 "foreground": "#86DE74"
             }
         },
-        // JSON
         {
             "scope": "support.type.property-nameon",
             "settings": {
@@ -422,7 +420,6 @@
                 "foreground": "#86DE74"
             }
         },
-        // CSS
         {
             "name": "Other",
             "scope": [
@@ -533,7 +530,6 @@
                 "foreground": "#86DE74"
             }
         },
-        // JS
         {
             "scope": [
                 "string.quoted.single",
