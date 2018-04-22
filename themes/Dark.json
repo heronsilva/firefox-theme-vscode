@@ -4,7 +4,7 @@
         {
             "settings": {
                 "background": "#2A2A2E",
-                "foreground": "#939393"
+                "foreground": "#D8D8E0"
             }
         },
         {
@@ -545,7 +545,7 @@
         "contrastBorder": "#00000000",
         "contrastActiveBorder": "#00000000",
         "focusBorder": "#0A84FF",
-        "foreground": "#939393",
+        "foreground": "#D8D8E0",
         "widget.shadow": "#000000",
         "selection.background": "#353B48",
         "descriptionForeground": "#FFFFFF",
@@ -627,7 +627,7 @@
         "tab.hoverBorder": "#515151",
         "tab.unfocusedHoverBorder": "#515151",
         "editor.background": "#2A2A2E",
-        "editor.foreground": "#939393",
+        "editor.foreground": "#D8D8E0",
         "editorLineNumber.foreground": "#606063",
         "editorLineNumber.activeForeground": "#939393",
         "editorCursor.background": "#939393",
