@@ -384,7 +384,10 @@
             }
         },
         {
-            "scope": "variable.other.constant.property",
+            "scope": [
+                "variable.other.constant.property",
+                "variable.other.constant"
+            ],
             "settings": {
                 "foreground": "#86DE74"
             }
