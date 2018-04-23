@@ -541,12 +541,12 @@
         }
     ],
     "colors": {
-        "contrastBorder": "#00000000",
-        "contrastActiveBorder": "#00000000",
+        // "contrastBorder": "",
+        // "contrastActiveBorder": "",
         "focusBorder": "#0A84FF",
         "foreground": "#D8D8E0",
         "widget.shadow": "#000000",
-        "selection.background": "#353B48",
+        "selection.background": "#6B89FF",
         "descriptionForeground": "#FFFFFF",
         "errorForeground": "#CC3D3D",
         "textBlockQuote.background": "#353B48",
