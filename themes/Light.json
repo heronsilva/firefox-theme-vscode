@@ -368,13 +368,13 @@
         {
             "scope": "string.template",
             "settings": {
-                "foreground": "#FFF89E"
+                "foreground": "#003EAA"
             }
         },
         {
             "scope": "meta.template.expression",
             "settings": {
-                "foreground": "#E52E2E"
+                "foreground": "#003EAA"
             }
         },
         {
