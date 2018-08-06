@@ -59,7 +59,7 @@
             "name": "Storage",
             "scope": "storage",
             "settings": {
-                "foreground": "#FFF89E"
+                "foreground": "#003EAA"
             }
         },
         {
@@ -69,7 +69,7 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#8000D7"
+                "foreground": "#0074E8"
             }
         },
         {
@@ -84,6 +84,12 @@
             "scope": "meta.definition.function",
             "settings": {
                 "foreground": "#8000D7"
+            }
+        },
+        {
+            "scope": "variable.object.property",
+            "settings":{
+                "foreground": "#058B00"
             }
         },
         {
@@ -113,7 +119,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "#FFF89E"
+                "foreground": "#8000D7"
             }
         },
         {
@@ -281,7 +287,8 @@
             "name": "Other",
             "scope": "variable.language.this",
             "settings": {
-                "foreground": "#A7A6C5"
+                "foreground": "#DD00A9",
+                "fontStyle": "italic"
             }
         },
         {
@@ -300,10 +307,11 @@
                 "constant.language.undefined",
                 "keyword.operator.comparison",
                 "keyword.operator.logical",
-                "keyword.operator.assignment"
+                "keyword.operator.assignment",
+                "keyword.operator.arithmetic"
             ],
             "settings": {
-                "foreground": "#939393"
+                "foreground": "#4A4A4F"
             }
         },
         {
@@ -379,12 +387,6 @@
         },
         {
             "scope": "variable.other.constant.property",
-            "settings": {
-                "foreground": "#058B00"
-            }
-        },
-        {
-            "scope": ["entity.name.type"],
             "settings": {
                 "foreground": "#058B00"
             }
@@ -624,12 +626,12 @@
         "editorGroupHeader.tabsBackground": "#F9F9FA",
         // "editorGroupHeader.tabsBorder": "",
         "tab.activeBackground": "#F9F9FA",
-        "tab.activeForeground": "#0A84FF",
-        // "tab.border": "",
-        "tab.activeBorder": "#0A84FF",
+        "tab.activeForeground": "#003EAA",
+        "tab.border": "#4A4A4F",
+        "tab.activeBorder": "#003EAA",
         // "tab.unfocusedActiveBorder": "",
         "tab.inactiveBackground": "#F9F9FA",
-        "tab.inactiveForeground": "#A2A2A3",
+        "tab.inactiveForeground": "#4A4A4F",
         // "tab.unfocusedActiveForeground": "",
         // "tab.unfocusedInactiveForeground": "",
         // "tab.hoverBackground": "",
