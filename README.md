@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/heronsilva/vscode-firefox-theme/master/icon.svg.png" alt="Firefox Theme for VS Code">
+    <img src="https://raw.githubusercontent.com/firefox-theme/visual-studio-code/master/images/icon.svg.png" alt="Theme logo">
 </p>
 
 <br>
@@ -29,18 +29,14 @@
 <br><br><br>
 
 #### Dark version
-![Dark version](dark.png)
+![Dark version](images/dark.png)
 
 #### Light version
-![Light version](light.png)
+![Light version](images/light.png)
 
 #### Dark version (previous)
-![Dark version (previous)](dark-previous.png)
+![Dark version (previous)](images/dark-previous.png)
 
 <br><br><br>
 
-<footer>
-    <h2 align="center">
-        Enjoy \o/
-    </h2>
-</footer>
+<h2 align="center">Enjoy \o/</h2>
