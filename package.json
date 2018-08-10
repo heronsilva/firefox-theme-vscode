@@ -1,16 +1,18 @@
 {
     "name": "firefox-devtools-theme",
     "displayName": "Firefox Theme",
-    "description": "A VS Code theme based on Mozilla Firefox' developer tools",
+    "description": "A syntax theme based on Mozilla Firefox' developer tools",
     "version": "3.3.0",
     "publisher": "Heron",
     "author": {
-        "name": "Heron Silva"
+        "name": "Heron Silva",
+        "email": "heron.code@outlook.com"
     },
     "repository": {
-        "url": "https://github.com/HeronSilva/FirefoxDevTools.tmTheme/"
+        "type": "git",
+        "url": "https://github.com/firefox-theme/visual-studio-code"
     },
-    "icon": "icon.png",
+    "icon": "images/icon.png",
     "badges": [
         {
             "url": "https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=B98EFF",
