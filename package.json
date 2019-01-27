@@ -3,7 +3,7 @@
     "displayName": "Firefox Theme",
     "description": "A syntax theme based on Mozilla Firefox' developer tools",
     "version": "3.3.2",
-    "publisher": "Heron",
+    "publisher": "Heron Silva",
     "author": {
         "name": "Heron Silva",
         "email": "heron.code@outlook.com"
@@ -41,18 +41,22 @@
             {
                 "label": "Firefox Light",
                 "uiTheme": "vs",
-                "path": "./themes/Light.json"
+                "path": "./themes/light.json"
             },
             {
                 "label": "Firefox Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Dark.json"
+                "path": "./themes/dark.json"
             },
             {
-                "label": "Firefox Dark (Previous)",
+                "label": "Firefox Dark (Classic)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/DarkPrevious.json"
+                "path": "./themes/dark-classic.json"
             }
         ]
+    },
+    "devDependencies": {
+        "js-yaml": "^3.12.0",
+        "jsonminify": "^0.4.1"
     }
 }

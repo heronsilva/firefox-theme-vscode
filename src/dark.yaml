@@ -1,0 +1,793 @@
+name: Firefox Dark
+type: Dark
+author: Heron Silva
+
+color-scheme:
+  base:
+    - &bg "#2A2A2E"
+    - &fg "#B1B1B3"
+
+    - &border_light "#696D71"
+    - &border_dark "#3C3C3D"
+
+    - &button_fg "#B1B1B3"
+    - &button_bg "#252526"
+    - &button_bg_active "#204E8A"
+    - &button_bg_hover "#353B48"
+
+    - &error_bg "#402325"
+    - &error_bd "#CC3D3D"
+    - &error_fg "#CC3D3D"
+    - &info_bg "#353B48"
+    - &info_bd "#0A84FF"
+    - &info_fg "#0A84FF"
+    - &warning_bg "#42381F"
+    - &warning_bd "#BDCA00"
+    - &warning_fg "#BDCA00"
+  general:
+    - &white     "#FFFFFF"
+    - &woodsmoke "#0C0C0D"
+    - &azure_radiance "#0A84FF"
+
+    - &transparent "#00000000"
+
+    - &input_bg  "#141416"
+    - &input_border  "#3C3C3D"
+    - &input_placeholder  "#88888B"
+
+    - &activity_bar_bg "#1B1B1D"
+    - &activity_bar_fg "#B1B1B3"
+    - &activity_bar_border "#3C3C3D"
+
+colors:
+# Contrast Colors
+  # contrastActiveBorder:
+  contrastBorder: *border_dark
+
+# Base Colors
+  focusBorder: *azure_radiance
+  foreground: *fg
+  widget.shadow: *transparent
+  selection.background: "#204E8A"
+  descriptionForeground: *white
+  errorForeground: *error_fg
+
+# Text Colors
+  textBlockQuote.background: "#353B48"
+  textBlockQuote.border: *azure_radiance
+  textCodeBlock.background: "#353B48"
+  textLink.activeForeground: "#75BFFF"
+  textLink.foreground: "#75BFFF"
+  textPreformat.foreground: *fg
+  textSeparator.foreground: *border_dark
+
+# Button Control
+  button.background: "#252526"
+  button.foreground: "#B1B1B3"
+  button.hoverBackground: "#353B48"
+
+# Dropdown Control
+  dropdown.background: "#4A4A4F"
+  dropdown.listBackground: "#5C5C61"
+  dropdown.border: *border_dark
+  dropdown.foreground: "#F9F9FA"
+
+# Input Control
+  input.background: *input_bg
+  input.border: *border_dark
+  input.foreground: *white
+  input.placeholderForeground: *fg
+  inputOption.activeBorder: *azure_radiance
+  inputValidation.errorBackground: "#4B3137"
+  inputValidation.errorForeground: "#FF9494"
+  inputValidation.errorBorder: "#4B3137"
+  inputValidation.infoBackground: "#204E8A"
+  inputValidation.infoForeground: *white
+  inputValidation.infoBorder: "#204E8A"
+  inputValidation.warningBackground: "#42381F"
+  inputValidation.warningForeground: "#FCE2A1"
+  inputValidation.warningBorder: "#42381F"
+
+# Scroll Bar Control
+  scrollbar.shadow: *transparent
+  scrollbarSlider.activeBackground: "#737373"
+  scrollbarSlider.background: "#73737355"
+  scrollbarSlider.hoverBackground: "#737373"
+
+# Badge
+  badge.background: "#6B89FF"
+  badge.foreground: *white
+
+# Progress Bar
+  progressBar.background: *azure_radiance
+
+# Lists and Trees
+  list.activeSelectionBackground: "#204E8A"
+  list.activeSelectionForeground: *white
+  list.dropBackground: "#353B48"
+  list.focusBackground: "#204E8A"
+  list.focusForeground: *white
+  list.highlightForeground: "#6B89FF"
+  list.hoverBackground: "#353B48"
+  list.hoverForeground: *white
+  list.inactiveSelectionBackground: "#353B48"
+  list.inactiveSelectionForeground: *fg
+  list.inactiveFocusBackground: "#353B48"
+  list.inactiveFocusForeground: *fg
+  list.invalidItemForeground: *error_fg
+  list.errorForeground: *error_fg
+  list.warningForeground: *warning_fg
+
+# Activity Bar
+  activityBar.background: *activity_bar_bg
+  activityBar.dropBackground: "#204E8A"
+  activityBar.foreground: *white
+  activityBar.inactiveForeground: *fg
+  activityBar.border: *border_dark
+  activityBarBadge.background: "#6B89FF"
+  activityBarBadge.foreground: *white
+
+# Side Bar
+  sideBar.background: *activity_bar_bg
+  sideBar.foreground: *fg
+  sideBar.border: *border_light
+  sideBar.dropBackground: "#204E8A"
+  sideBarTitle.foreground: *fg
+  sideBarSectionHeader.background: "#222225"
+  sideBarSectionHeader.foreground: *fg
+  sideBarSectionHeader.border: *border_dark
+
+# Editor Groups & Tabs
+  editorGroup.border: *woodsmoke
+  editorGroup.dropBackground: "#204E8A55"
+  editorGroup.background: *woodsmoke
+  editorGroupHeader.noTabsBackground: *bg
+  editorGroupHeader.tabsBackground: *woodsmoke
+  editorGroupHeader.tabsBorder: *woodsmoke
+  editorGroup.emptyBackground: *bg
+  editorGroup.focusedEmptyBorder: *border_light
+  tab.activeBackground: *woodsmoke
+  tab.activeForeground: *white
+  tab.border: *woodsmoke
+  tab.activeBorder: *azure_radiance
+  tab.unfocusedActiveBorder: *azure_radiance
+  tab.inactiveBackground: *woodsmoke
+  tab.inactiveForeground: *fg
+  tab.unfocusedActiveForeground: *white
+  tab.unfocusedInactiveForeground: *white
+  tab.hoverBackground: "#252526"
+  tab.unfocusedHoverBackground: "#252526"
+  tab.hoverBorder: "#515151"
+  tab.unfocusedHoverBorder: "#515151"
+  # tab.activeModifiedBorder:
+  # tab.inactiveModifiedBorder:
+  # tab.unfocusedActiveModifiedBorder:
+  # tab.unfocusedInactiveModifiedBorder:
+
+# Editor Colors
+  editor.background: *bg
+  editor.foreground: *fg
+  editorLineNumber.foreground: *fg
+  editorLineNumber.activeForeground: *fg
+  # editorCursor.background:
+  editorCursor.foreground: *fg
+
+  editor.selectionBackground: "#204E8A"
+  editor.selectionForeground: *fg
+  editor.inactiveSelectionBackground: "#353B48"
+  editor.selectionHighlightBackground: "#353B48"
+  editor.selectionHighlightBorder: *border_light
+
+  editor.wordHighlightBackground: *warning_bg
+  editor.wordHighlightBorder: *border_light
+  editor.wordHighlightStrongBackground: "#402325"
+  editor.wordHighlightStrongBorder: *border_light
+
+  editor.findMatchBackground: "#204E8A"
+  editor.findMatchHighlightBackground: *warning_bg
+  editor.findRangeHighlightBackground: "#252526"
+  editor.findMatchBorder: *border_light
+  editor.findMatchHighlightBorder: *border_light
+  editor.findRangeHighlightBorder: *border_light
+
+  editor.hoverHighlightBackground: "#353B48"
+
+  editor.lineHighlightBackground:
+  editor.lineHighlightBorder: "#40444D"
+
+  editorLink.activeForeground: "#75BFFF"
+
+  editor.rangeHighlightBackground:
+  editor.rangeHighlightBorder: *border_dark
+
+  editorWhitespace.foreground: "#40444D"
+  editorIndentGuide.background: "#40444D"
+  editorIndentGuide.activeBackground: *fg
+
+  editorRuler.foreground: "#40444D"
+
+  editorCodeLens.foreground: "#515151"
+
+  editorBracketMatch.background: "#40444D"
+  editorBracketMatch.border: "#70737A"
+
+  # Overview ruler:
+  editorOverviewRuler.border: *border_dark
+  editorOverviewRuler.findMatchForeground: "#6B89FF"
+  editorOverviewRuler.rangeHighlightForeground: "#6B89FF"
+  editorOverviewRuler.selectionHighlightForeground: *azure_radiance
+  editorOverviewRuler.wordHighlightForeground: "#6B89FF"
+  editorOverviewRuler.wordHighlightStrongForeground: *azure_radiance
+  editorOverviewRuler.addedForeground: "#0A84FF"
+  editorOverviewRuler.modifiedForeground: "#86DE74"
+  editorOverviewRuler.deletedForeground: "#CC3D3D"
+  editorOverviewRuler.errorForeground: "#CC3D3D"
+  editorOverviewRuler.warningForeground: "#D99F2B"
+  editorOverviewRuler.infoForeground: *azure_radiance
+  editorOverviewRuler.bracketMatchForeground: "#00BB00"
+
+  # Errors and warnings:
+  editorError.foreground: "#CC3D3D"
+  editorError.border:
+  editorWarning.foreground: "#D99F2B"
+  editorWarning.border:
+  editorInfo.foreground: *azure_radiance
+  editorInfo.border:
+  editorHint.foreground: "#86DE74"
+  editorHint.border:
+
+  editorUnnecessaryCode.border:
+  editorUnnecessaryCode.opacity:
+
+  # The gutter contains the glyph margins and the line numbers:
+  editorGutter.background: "#2A2A2E"
+  editorGutter.modifiedBackground: "#D99F2B"
+  editorGutter.addedBackground: *azure_radiance
+  editorGutter.deletedBackground: "#CC3D3D"
+
+  # Diff Editor Colors
+  diffEditor.insertedTextBackground: "#86DE7422"
+  diffEditor.insertedTextBorder:
+  diffEditor.removedTextBackground: "#402325CC"
+  diffEditor.removedTextBorder:
+  diffEditor.border:
+
+  # Editor Widget Colors
+  editorWidget.background: *woodsmoke
+  editorWidget.border: *border_light
+  editorWidget.resizeBorder: *azure_radiance
+  editorSuggestWidget.background: "#0F171F"
+  editorSuggestWidget.border: "#27272B"
+  editorSuggestWidget.foreground: *fg
+  editorSuggestWidget.highlightForeground: *white
+  editorSuggestWidget.selectedBackground: "#204E8A"
+  editorHoverWidget.background: *button_bg_hover
+  editorHoverWidget.border: *border_light
+
+  # The Debug Exception widget is a peek view that shows in the editor when debug stops at an exception.
+  debugExceptionWidget.background: "#402325"
+  debugExceptionWidget.border: *border_dark
+
+  # The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
+  editorMarkerNavigation.background: *woodsmoke
+  editorMarkerNavigationError.background: "#4B3137"
+  editorMarkerNavigationWarning.background: "#42381F"
+  editorMarkerNavigationInfo.background: "#204E8A"
+
+# Peek View Colors
+  peekView.border: *border_light
+  peekViewEditor.background: "#252526"
+  peekViewEditorGutter.background: "#252526"
+  peekViewResult.background: *activity_bar_bg
+  peekViewResult.fileForeground: *fg
+  peekViewResult.lineForeground: *fg
+  peekViewResult.matchHighlightBackground: "#73764A"
+  peekViewResult.selectionBackground: "#204E8A"
+  peekViewResult.selectionForeground: *white
+  peekViewTitle.background: "#4A4A4F"
+  peekViewTitleDescription.foreground: *fg
+  peekViewTitleLabel.foreground: *white
+
+# Merge Conflicts
+  merge.currentHeaderBackground: "#31512B"
+  merge.currentContentBackground: "#86DE7444"
+  merge.incomingHeaderBackground: "#204E8A"
+  merge.incomingContentBackground: "#6B89FF44"
+  merge.border: *border_light
+  merge.commonContentBackground: *bg
+  merge.commonHeaderBackground: *woodsmoke
+  editorOverviewRuler.currentContentForeground: "#86DE74"
+  editorOverviewRuler.incomingContentForeground: "#6B89FF"
+  editorOverviewRuler.commonContentForeground: *transparent
+
+# Panel Colors
+  panel.background: "#1B1B1D"
+  panel.border: *border_dark
+  panel.dropBackground: *bg
+  panelTitle.activeBorder: *azure_radiance
+  panelTitle.activeForeground: *white
+  panelTitle.inactiveForeground: *fg
+
+# Status Bar Colors
+  statusBar.background: *woodsmoke
+  statusBar.foreground: *fg
+  statusBar.border: *border_dark
+  statusBar.debuggingBackground: "#204E8A"
+  statusBar.debuggingForeground: *fg
+  statusBar.debuggingBorder: *border_dark
+  statusBar.noFolderBackground: *woodsmoke
+  statusBar.noFolderForeground: *fg
+  statusBar.noFolderBorder: *border_dark
+  statusBarItem.activeBackground: *button_bg_active
+  statusBarItem.hoverBackground: *button_bg_hover
+  statusBarItem.prominentBackground: *button_bg
+  statusBarItem.prominentHoverBackground: *button_bg_hover
+
+# Title Bar Colors
+  titleBar.activeBackground: "#1B1B1D"
+  titleBar.activeForeground: *white
+  titleBar.inactiveBackground: *woodsmoke
+  titleBar.inactiveForeground: *fg
+  titleBar.border: *border_dark
+
+# Menu Bar Colors
+  # menubar.selectionForeground: Foreground color of the selected menu item in the menubar.
+  # menubar.selectionBackground: Background color of the selected menu item in the menubar.
+  # menubar.selectionBorder: Border color of the selected menu item in the menubar.
+  # menu.foreground: Foreground color of menu items.
+  # menu.background: Background color of menu items.
+  # menu.selectionForeground: Foreground color of the selected menu item in menus.
+  # menu.selectionBackground: Background color of the selected menu item in menus.
+  # menu.selectionBorder: Border color of the selected menu item in menus.
+  # menu.separatorBackground: Color of a separator menu item in menus.
+
+# Notification Colors
+  notificationCenter.border: *border_light
+  notificationCenterHeader.foreground: *white
+  notificationCenterHeader.background: *woodsmoke
+  notificationToast.border: *border_light
+  notifications.foreground: *fg
+  notifications.background: "#1b1b1d"
+  notifications.border: *border_light
+
+# Extensions
+  extensionButton.prominentForeground: *button_fg
+  extensionButton.prominentBackground: *button_bg
+  extensionButton.prominentHoverBackground: *button_bg_hover
+
+# Quick Picker
+  pickerGroup.border: *border_light
+  pickerGroup.foreground: *fg
+
+# Integrated Terminal Colors
+  terminal.background: *bg
+  terminal.foreground: *fg
+  terminal.ansiBlack: *bg
+  terminal.ansiBlue: "#6B89FF"
+  terminal.ansiBrightBlack: "#0C0C0D"
+  terminal.ansiBrightBlue: "#6B89FF"
+  terminal.ansiBrightCyan: *azure_radiance
+  terminal.ansiBrightGreen: #86DE74"
+  terminal.ansiBrightMagenta: "#FF7DE9"
+  terminal.ansiBrightRed: "#CC3D3D"
+  terminal.ansiBrightWhite: *white
+  terminal.ansiBrightYellow: "#FCE2A1"
+  terminal.ansiCyan: *azure_radiance
+  terminal.ansiGreen: "#86DE74"
+  terminal.ansiMagenta: "#FF7DE9"
+  terminal.ansiRed: "#CC3D3D"
+  terminal.ansiWhite: *white
+  terminal.ansiYellow: "#FCE2A1"
+  terminal.selectionBackground: "#204E8A66"
+  terminalCursor.background: *white
+  terminalCursor.foreground: *fg
+
+# Debug
+  debugToolBar.background: *woodsmoke
+
+# Welcome Page
+  welcomePage.buttonBackground: "#252526"
+  welcomePage.buttonHoverBackground: "#353B48"
+  walkThrough.embeddedEditorBackground: *bg
+
+# Git Colors
+  gitDecoration.addedResourceForeground: "#0A84FF"
+  gitDecoration.modifiedResourceForeground: "#86DE74"
+  gitDecoration.deletedResourceForeground: "#CC3D3D"
+  gitDecoration.untrackedResourceForeground: "#D99F2B"
+  gitDecoration.ignoredResourceForeground: "#939393"
+  gitDecoration.conflictingResourceForeground: "#6657A6"
+  gitDecoration.submoduleResourceForeground:
+
+# Settings Editor colors
+  settings.headerForeground:
+  settings.modifiedItemIndicator:
+  settings.dropdownBackground:
+  settings.dropdownForeground:
+  settings.dropdownBorder:
+  settings.dropdownListBorder:
+  settings.checkboxBackground:
+  settings.checkboxForeground:
+  settings.checkboxBorder:
+  settings.textInputBackground:
+  settings.textInputForeground:
+  settings.textInputBorder:
+  settings.numberInputBackground:
+  settings.numberInputForeground:
+  settings.numberInputBorder:
+
+# Breadcrumbs
+  breadcrumb.background: "#2A2A2E"
+  breadcrumb.foreground: *fg
+  breadcrumb.focusForeground: *white
+  breadcrumb.activeSelectionForeground: "#75BFFF"
+  breadcrumbPicker.background: "#4A4A4F"
+
+# Snippets
+  editor.snippetTabstopHighlightBackground:
+  editor.snippetTabstopHighlightBorder:
+  editor.snippetFinalTabstopHighlightBackground:
+  editor.snippetFinalTabstopHighlightBorder:
+
+tokenColors:
+  - settings:
+      background: *bg
+      foreground: *fg
+
+  - name: Comment
+    scope:
+    - comment
+    - punctuation.definition.comment
+    settings:
+      foreground: "#939393"
+
+  - name: String
+    scope:
+    - string
+    settings:
+      foreground: "#6B89FF"
+
+  - name: Regexp
+    scope:
+    - string.regexp
+    settings:
+      foreground: "#6B89FF"
+
+  - name: Number
+    scope:
+    - constant.numeric
+    settings:
+      foreground: "#6B89FF"
+
+  - name: Variable
+    scope:
+    - meta.definition.variable.name
+    - support.variable
+    - variable
+    - variable.language
+    settings:
+      foreground: "#75BFFF"
+
+  - name: Keyword
+    scope:
+    - keyword
+    settings:
+      foreground: "#FF7DE9"
+
+  - name: Storage
+    scope:
+    - storage
+    settings:
+      foreground: "#FFFFB4"
+
+  - name: Class name
+    scope:
+    - entity.name.class
+    - entity.name.type
+    settings:
+      foreground: "#B98EFF"
+
+  - name: Function name
+    scope:
+    - meta.function-call
+    settings:
+      foreground: "#B98EFF"
+
+  - name: Function definition
+    scope:
+    - meta.definition.function
+    settings:
+      foreground: "#75BFFF"
+
+  - name: Embedded code markers
+    scope:
+    - punctuation.section.embedded.begin
+    - punctuation.section.embedded.end
+    settings:
+      foreground: "#E9F4FE"
+
+  - name: Built-in constant
+    scope:
+    - constant.language
+    settings:
+      foreground: "#E9F4FE"
+
+  - name: User-defined constant
+    scope:
+    - constant.character
+    - constant.other
+    settings:
+      foreground: "#FFFFB4"
+
+  - name: Inherited class
+    scope:
+    - entity.other.inherited-class
+    settings:
+      fontStyle: underline
+      foreground: "#CC3D3D"
+
+  - name: Function argument
+    scope:
+    - variable.parameter
+    settings:
+      foreground: "#75BFFF"
+
+  - name: Punctuation accessor
+    scope:
+    - punctuation.accessor
+    settings:
+      foreground: "#6B89FF"
+
+  - name: Storage type
+    scope:
+    - storage.type
+    settings:
+      foreground: "#FF7DE9"
+
+  - name: Function
+    scope: support.function
+    settings:
+      foreground: "#B98EFF"
+
+  - name: Library constant
+    scope: support.constant
+    settings:
+      foreground: "#CC3D3D"
+
+  - name: Library class/type
+    scope:
+    - support.type
+    - support.class
+    settings:
+      foreground: "#B98EFF"
+
+  - scope:
+    - entity.name.function
+    - support.variable.property.dom
+    - variable.other.property
+    settings:
+      foreground: "#86de74"
+
+  - scope: meta.object-literal.key
+    settings:
+      foreground: "#86de74"
+
+# Language specific settings
+# HTML
+  - name: Tag name
+    scope: entity.name.tag
+    settings:
+      foreground: "#75BFFF"
+
+  - name: DOCTYPE
+    scope:
+      - meta.tag.metadata.doctype.html
+      - meta.tag.sgml.doctype.html
+    settings:
+      foreground: "#909090"
+
+  - name: Tag start/end
+    scope: punctuation.definition.tag
+    settings:
+      foreground: "#767578"
+
+  - name: Unnamed
+    scope: meta.tag.structure.any.html
+    settings:
+      foreground": "#B98EFF"
+
+  - name: Tag attribute
+    scope:
+    - entity.other.attribute.name
+    - entity.other.attribute-name.html
+    - entity.other.attribute-name.id.html
+    settings:
+      foreground: "#FF7DE9"
+
+  - name: HTML Comment
+    scope: comment.block.html
+    settings:
+      foreground: "#86DE74AA"
+
+  - name: HTML String begin/end
+    scope:
+    - punctuation.definition.string.begin.html
+    - punctuation.definition.string.end.html
+    settings:
+      foreground: "#909090"
+
+# CSS
+  - scope:
+    - meta.selector.css
+    - entity.name.tag.css
+    - keyword.control.at-rule.media.css
+    settings:
+    foreground: "#75BFFF"
+
+  - scope:
+    - meta.function.url.css
+    - meta.property-value.css
+    - support.constant.property-value.css
+    - support.function.url.css
+    - support.function.misc.css
+    - keyword.other.unit.px.css
+    - keyword.other.unit.pt.css
+    - keyword.other.unit.percentage.css
+    - keyword.other.unit.em.css
+    - keyword.other.unit.rem.css
+    - keyword.other.unit.ch.css
+    - keyword.other.unit.vh.css
+    - keyword.other.unit.vw.css
+    - keyword.other.unit.s.css
+    - keyword.other.unit.deg.css
+    - keyword.other.unit.scss
+    - keyword.other.unit.dppx.css
+    - support.constant.media.css
+    - constant.numeric.css
+    - string.quoted.single.css
+    - string.quoted.double.css
+    settings:
+      foreground: "#6B89FF"
+
+  - scope:
+    - constant.other.color.rgb-value.hex.css
+    - variable.parameter.url.css
+    - support.function.transform.css
+    - support.function.calc.css
+    - entity.other.attribute-name.pseudo-class.css
+    - meta.function.gradient.css
+    - support.function.gradient.css
+    - variable.parameter.url.scss
+    - entity.name.tag.scss"
+    settings:
+      foreground: "#E9F4FE"
+
+  - scope:
+    - punctuation.terminator.rule.css
+    - punctuation.separator.key-value.css
+    - punctuation.section.property-list.begin.bracket.curly.css
+    - punctuation.section.property-list.end.bracket.curly.css
+    - punctuation.section.function.begin.bracket.round.css
+    - punctuation.section.function.end.bracket.round.css
+    - punctuation.definition.entity.begin.bracket.square.css
+    - punctuation.definition.entity.end.bracket.square.css
+    - punctuation.separator.list.comma.css
+    - keyword.operator.pattern.css
+    settings:
+      foreground": "#D7D7DB"
+
+  - scope:
+     - support.type.property-name.css
+     - support.type.property-name.media.css
+     - support.type.vendored.property-name.media.css
+    settings:
+      foreground: "#86DE74"
+
+  - scope:
+    - support.type.vendored.property-name.css
+    - entity.other.attribute-name.pseudo-element.css
+    settings:
+      foreground: "#939393"
+
+  - scope: keyword.operator.combinator.css
+    settings:
+      foreground: "#D7D7DB"
+
+  - scope: support.type.property-name.css
+    settings:
+     foreground: "#86DE74"
+
+# JSON
+  - name: JSON Property
+    scope: support.type.property-name.json
+    settings:
+      foreground: "#75BFFF"
+
+  - name: JSON String
+    scope:
+    - string.quoted.double.json
+    settings:
+      foreground: "#FF7DE9"
+
+  - name: JSON Numeric
+    scope:
+    - constant.numeric.json
+    - constant.language.json
+    settings:
+      foreground: "#86DE74"
+
+  - scope:
+    - punctuation.separator.dictionary.key-value.json
+    - punctuation.separator.dictionary.pair.json
+    settings:
+      foreground: "#75BFFF"
+
+  - scope:
+    - punctuation.separator.dictionary.key-value.json
+    - punctuation.separator.dictionary.pair.json
+    settings:
+      foreground: *fg
+
+# Markdown
+  - scope: markup.underline
+    settings:
+      fontStyle: underline
+
+  - scope: markup.italic
+    settings:
+      fontStyle: italic
+
+  - scope: markup.bold
+    settings:
+      fontStyle: bold
+
+  - scope: markup.heading
+    settings:
+      foreground: *white
+
+  - scope: markup.inserted
+    settings:
+      foreground: "#86DE74"
+
+  - scope: markup.deleted
+    settings:
+      foreground: "#CC3D3D"
+
+  - scope: markup.changed
+    settings:
+      foreground: *azure_radiance
+
+  - scope: punctuation.definition.quote.begin.markdown
+    settings:
+      foreground: "#FF7DE9"
+
+  - scope: punctuation.definition.list.begin.markdown
+    settings:
+      foreground: "#75BFFF"
+
+  - scope: markup.inline.raw
+    settings:
+      foreground: "#86DE74"
+
+  - scope: meta.paragraph.markdown
+    settings:
+      foreground: *fg
+
+  - scope: punctuation.definition.list.begin.markdown
+    settings:
+      foreground: *fg
+
+  - scope: string.other.link.title.markdown
+    settings:
+      foreground: "#75BFFF"
+
+  - scope: markup.underline.link.markdown
+    settings:
+      foreground: "#6B89FF"
+
+# .env
+  - scope:
+    - source.env
+    - constant.numeric.env
+    settings:
+      foreground: *fg
