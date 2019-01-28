@@ -312,7 +312,7 @@ colors:
   statusBar.background: *woodsmoke
   statusBar.foreground: *fg
   statusBar.border: *border_dark
-  statusBar.debuggingBackground: "#204E8A"
+  statusBar.debuggingBackground: "#CC3D3D"
   statusBar.debuggingForeground: *fg
   statusBar.debuggingBorder: *border_dark
   statusBar.noFolderBackground: *woodsmoke
