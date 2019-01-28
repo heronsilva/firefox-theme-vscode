@@ -192,12 +192,12 @@ colors:
 
   editor.hoverHighlightBackground: "#353B48"
 
-  editor.lineHighlightBackground:
+  # editor.lineHighlightBackground:
   editor.lineHighlightBorder: "#40444D"
 
   editorLink.activeForeground: "#75BFFF"
 
-  editor.rangeHighlightBackground:
+  # editor.rangeHighlightBackground:
   editor.rangeHighlightBorder: *border_dark
 
   editorWhitespace.foreground: "#40444D"
@@ -228,16 +228,16 @@ colors:
 
   # Errors and warnings:
   editorError.foreground: "#CC3D3D"
-  editorError.border:
+  # editorError.border:
   editorWarning.foreground: "#D99F2B"
-  editorWarning.border:
+  # editorWarning.border:
   editorInfo.foreground: *azure_radiance
-  editorInfo.border:
+  # editorInfo.border:
   editorHint.foreground: "#86DE74"
-  editorHint.border:
+  # editorHint.border:
 
-  editorUnnecessaryCode.border:
-  editorUnnecessaryCode.opacity:
+  # editorUnnecessaryCode.border:
+  # editorUnnecessaryCode.opacity:
 
   # The gutter contains the glyph margins and the line numbers:
   editorGutter.background: "#2A2A2E"
@@ -247,10 +247,10 @@ colors:
 
   # Diff Editor Colors
   diffEditor.insertedTextBackground: "#86DE7422"
-  diffEditor.insertedTextBorder:
-  diffEditor.removedTextBackground: "#402325CC"
-  diffEditor.removedTextBorder:
-  diffEditor.border:
+  # diffEditor.insertedTextBorder:
+  diffEditor.removedTextBackground: "#402325AA"
+  # diffEditor.removedTextBorder:
+  # diffEditor.border:
 
   # Editor Widget Colors
   editorWidget.background: *woodsmoke
@@ -397,24 +397,24 @@ colors:
   gitDecoration.untrackedResourceForeground: "#D99F2B"
   gitDecoration.ignoredResourceForeground: "#939393"
   gitDecoration.conflictingResourceForeground: "#6657A6"
-  gitDecoration.submoduleResourceForeground:
+  # gitDecoration.submoduleResourceForeground:
 
 # Settings Editor colors
-  settings.headerForeground:
-  settings.modifiedItemIndicator:
-  settings.dropdownBackground:
-  settings.dropdownForeground:
-  settings.dropdownBorder:
-  settings.dropdownListBorder:
-  settings.checkboxBackground:
-  settings.checkboxForeground:
-  settings.checkboxBorder:
-  settings.textInputBackground:
-  settings.textInputForeground:
-  settings.textInputBorder:
-  settings.numberInputBackground:
-  settings.numberInputForeground:
-  settings.numberInputBorder:
+  # settings.headerForeground:
+  # settings.modifiedItemIndicator:
+  # settings.dropdownBackground:
+  # settings.dropdownForeground:
+  # settings.dropdownBorder:
+  # settings.dropdownListBorder:
+  # settings.checkboxBackground:
+  # settings.checkboxForeground:
+  # settings.checkboxBorder:
+  # settings.textInputBackground:
+  # settings.textInputForeground:
+  # settings.textInputBorder:
+  # settings.numberInputBackground:
+  # settings.numberInputForeground:
+  # settings.numberInputBorder:
 
 # Breadcrumbs
   breadcrumb.background: "#2A2A2E"
@@ -424,10 +424,10 @@ colors:
   breadcrumbPicker.background: "#4A4A4F"
 
 # Snippets
-  editor.snippetTabstopHighlightBackground:
-  editor.snippetTabstopHighlightBorder:
-  editor.snippetFinalTabstopHighlightBackground:
-  editor.snippetFinalTabstopHighlightBorder:
+  # editor.snippetTabstopHighlightBackground:
+  # editor.snippetTabstopHighlightBorder:
+  # editor.snippetFinalTabstopHighlightBackground:
+  # editor.snippetFinalTabstopHighlightBorder:
 
 tokenColors:
   - settings:
