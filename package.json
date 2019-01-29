@@ -2,7 +2,7 @@
     "name": "firefox-devtools-theme",
     "displayName": "Firefox Theme",
     "description": "A syntax theme based on Mozilla Firefox' developer tools",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "publisher": "Heron",
     "author": {
         "name": "Heron Silva",
