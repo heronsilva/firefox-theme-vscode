@@ -40,7 +40,7 @@ color-scheme:
     - &activity_bar_border "#3C3C3D"
 
 colors:
-# Contrast Colors
+  # Contrast Colors
   # contrastActiveBorder:
   contrastBorder: *border_dark
 
@@ -57,7 +57,7 @@ colors:
   textBlockQuote.border: *azure_radiance
   textCodeBlock.background: "#353B48"
   textLink.activeForeground: "#75BFFF"
-  textLink.foreground: "#75BFFF"
+  textLink.foreground: *fg
   textPreformat.foreground: *fg
   textSeparator.foreground: *border_dark
 
@@ -313,7 +313,7 @@ colors:
   statusBar.foreground: *fg
   statusBar.border: *border_dark
   statusBar.debuggingBackground: "#CC3D3D"
-  statusBar.debuggingForeground: *fg
+  statusBar.debuggingForeground: *white
   statusBar.debuggingBorder: *border_dark
   statusBar.noFolderBackground: *woodsmoke
   statusBar.noFolderForeground: *fg
@@ -449,6 +449,9 @@ tokenColors:
 
   - name: Regexp
     scope:
+    - constant.character.escape.backslash.regexp
+    - constant.other.character-class.regexp
+    - keyword.operator.quantifier.regexp
     - string.regexp
     settings:
       foreground: "#6B89FF"
@@ -478,7 +481,7 @@ tokenColors:
     scope:
     - storage
     settings:
-      foreground: "#FFFFB4"
+      foreground: "#FF7DE9"
 
   - name: Class name
     scope:
@@ -523,20 +526,13 @@ tokenColors:
     scope:
     - entity.other.inherited-class
     settings:
-      fontStyle: underline
-      foreground: "#CC3D3D"
+      foreground: "#B98EFF"
 
   - name: Function argument
     scope:
     - variable.parameter
     settings:
       foreground: "#75BFFF"
-
-  - name: Punctuation accessor
-    scope:
-    - punctuation.accessor
-    settings:
-      foreground: "#6B89FF"
 
   - name: Storage type
     scope:
@@ -566,11 +562,31 @@ tokenColors:
     - support.variable.property.dom
     - variable.other.property
     settings:
-      foreground: "#86de74"
+      foreground: "#86DE74"
 
   - scope: meta.object-literal.key
     settings:
-      foreground: "#86de74"
+      foreground: "#86DE74"
+
+  - scope:
+    - meta.brace.round
+    - punctuation.accessor
+    - punctuation.definition.block
+    - punctuation.definition.parameters.begin
+    - punctuation.definition.parameters.end
+    - punctuation.separator.comma
+    - punctuation.separator.key-value
+    - punctuation.terminator.statement
+    settings:
+      foreground: "#D7D7DB"
+
+  - scope: entity.name.type.class
+    settings:
+      foreground: "#75BFFF"
+
+  - scope: keyword.operator.assignment
+    settings:
+      foreground: "#B1B1B3"
 
 # Language specific settings
 # HTML
@@ -727,6 +743,20 @@ tokenColors:
     - punctuation.separator.dictionary.pair.json
     settings:
       foreground: *fg
+
+  - scope: variable.other.object
+    settings:
+      foreground: "#B98EFF"
+
+  - scope: variable.other.constant.property
+    settings:
+      foreground: "#86DE74"
+
+  - scope:
+    - constant.language.null
+    - constant.language.undefined
+    settings:
+      foreground: "#909090"
 
 # Markdown
   - scope: markup.underline
