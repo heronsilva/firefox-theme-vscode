@@ -1,21 +1,30 @@
-const yaml = require('js-yaml')
-const jsonMinify = require('jsonminify')
 const fs = require('fs')
 
-buildTheme()
+const chokidar = require('chokidar')
+const jsonMinify = require('jsonminify')
+const yaml = require('js-yaml')
 
-fs.watch('./src', buildTheme)
+const shouldWatchForChanges = process.argv.includes('--watch')
 
-function buildTheme(curr, prev) {
-    const theme = fs.readFileSync('./src/dark.yaml', 'utf8')
+
+if (shouldWatchForChanges) {
+    chokidar
+        .watch('src/dark.yaml')
+        .on('change', generateThemeFile)
+}
+
+generateThemeFile()
+
+function generateThemeFile(curr, prev) {
+    const theme = fs.readFileSync('src/dark.yaml', 'utf8')
     const themeYaml = yaml.load(theme)
     const themeJson = JSON.stringify(themeYaml, null, 4)
 
-    fs.writeFile('./themes/dark.json', jsonMinify(themeJson), err => {
+    fs.writeFile('themes/dark.json', jsonMinify(themeJson), err => {
         if (err) {
             throw err
         }
 
-        console.log('Theme saved!')
+        return console.log('theme generated!')
     })
 }

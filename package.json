@@ -58,5 +58,8 @@
     "devDependencies": {
         "js-yaml": "^3.12.0",
         "jsonminify": "^0.4.1"
+    },
+    "dependencies": {
+        "chokidar": "^2.0.4"
     }
 }
