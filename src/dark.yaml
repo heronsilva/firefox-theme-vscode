@@ -758,6 +758,12 @@ tokenColors:
     settings:
       foreground: "#909090"
 
+  - scope:
+    - meta.attribute.name
+    - string.quoted.double.html
+    settings:
+      foreground: "#B98EFF"
+
 # Markdown
   - scope: markup.underline
     settings:
