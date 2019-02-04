@@ -312,7 +312,7 @@ colors:
   statusBar.background: *woodsmoke
   statusBar.foreground: *fg
   statusBar.border: *border_dark
-  statusBar.debuggingBackground: "#CC3D3D"
+  statusBar.debuggingBackground: "#6657A6"
   statusBar.debuggingForeground: *white
   statusBar.debuggingBorder: *border_dark
   statusBar.noFolderBackground: *woodsmoke
@@ -617,6 +617,7 @@ tokenColors:
     - entity.other.attribute.name
     - entity.other.attribute-name.html
     - entity.other.attribute-name.id.html
+    - entity.other.attribute-name.localname.xml
     settings:
       foreground: "#FF7DE9"
 
@@ -759,8 +760,20 @@ tokenColors:
       foreground: "#909090"
 
   - scope:
+    - constant.language.boolean.true
+    settings:
+      foreground: "#75BFFF"
+
+  - scope:
+    - constant.language.boolean.false
+    settings:
+      foreground: "#FF9494"
+      # foreground: "#CC3D3D"
+
+  - scope:
     - meta.attribute.name
     - string.quoted.double.html
+    - string.quoted.double.xml
     settings:
       foreground: "#B98EFF"
 
