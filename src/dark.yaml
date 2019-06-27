@@ -178,7 +178,7 @@ colors:
   editor.selectionHighlightBackground: "#353B48"
   editor.selectionHighlightBorder: *border_light
 
-  editor.wordHighlightBackground: *warning_bg
+  editor.wordHighlightBackground: "#204E8A55"
   editor.wordHighlightBorder: *border_light
   editor.wordHighlightStrongBackground: "#402325"
   editor.wordHighlightStrongBorder: *border_light
