@@ -56,7 +56,7 @@
         ]
     },
     "devDependencies": {
-        "js-yaml": "^3.12.0",
+        "js-yaml": "^3.13.1",
         "jsonminify": "^0.4.1"
     },
     "dependencies": {
