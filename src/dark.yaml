@@ -57,8 +57,8 @@ colors:
   textBlockQuote.border: *azure_radiance
   textCodeBlock.background: "#353B48"
   textLink.activeForeground: "#75BFFF"
-  textLink.foreground: *fg
-  textPreformat.foreground: *fg
+  textLink.foreground: "#75BFFF"
+  textPreformat.foreground: "#D7BA7D"
   textSeparator.foreground: *border_dark
 
 # Button Control
