@@ -54,12 +54,5 @@
                 "path": "./themes/dark-classic.json"
             }
         ]
-    },
-    "devDependencies": {
-        "js-yaml": "^3.13.1",
-        "jsonminify": "^0.4.1"
-    },
-    "dependencies": {
-        "chokidar": "^2.0.4"
     }
 }
