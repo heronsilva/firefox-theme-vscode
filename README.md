@@ -12,13 +12,16 @@
 
 <p align="center">
     <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" title="Release">
-        <img src="https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=10C970" alt="Current version">
+        <img src="https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=for-the-badge&colorA=2A2A2E&colorB=B98EFF" alt="Current version">
     </a>
-    <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" title="Install Count">
-        <img src="https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Install%20Count&style=flat-square&colorA=434346&colorB=10C970" alt="Install Count">
+    <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" title="Downloads">
+        <img src="https://vsmarketplacebadge.apphb.com/downloads/Heron.firefox-devtools-theme.svg?label=Downloads&style=for-the-badge&colorA=2A2A2E&colorB=B98EFF" alt="Downloads">
+    </a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme" title="Installs">
+        <img src="https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Installs&style=for-the-badge&colorA=2A2A2E&colorB=B98EFF" alt="Installs">
     </a>
     <a href="https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details" title="Rating">
-        <img src="https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=10C970" alt="Rating">
+        <img src="https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=for-the-badge&colorA=2A2A2E&colorB=B98EFF" alt="Rating">
     </a>
 </p>
 
