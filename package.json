@@ -1,58 +1,58 @@
 {
-    "name": "firefox-devtools-theme",
-    "displayName": "Firefox Theme",
-    "description": "A syntax theme based on Mozilla Firefox' developer tools",
-    "version": "4.8.0",
-    "publisher": "Heron",
-    "author": {
-        "name": "Heron Silva",
-        "email": "heron.code@outlook.com"
+  "name": "firefox-devtools-theme",
+  "displayName": "Firefox Theme",
+  "description": "A VS Code theme based on the Mozilla Firefox' developer tools colors",
+  "version": "4.8.0",
+  "publisher": "Heron",
+  "author": {
+    "name": "Heron Silva",
+    "email": "heron.code@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firefox-theme/visual-studio-code"
+  },
+  "icon": "images/icon.png",
+  "badges": [
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=B98EFF",
+      "description": "Current version",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/firefox-theme/visual-studio-code"
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Installs&style=flat-square&colorA=434346&colorB=B98EFF",
+      "description": "Installs",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
     },
-    "icon": "images/icon.png",
-    "badges": [
-        {
-            "url": "https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=B98EFF",
-            "description": "Current version",
-            "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
-        },
-        {
-            "url": "https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Installs&style=flat-square&colorA=434346&colorB=B98EFF",
-            "description": "Installs",
-            "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
-        },
-        {
-            "url": "https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=B98EFF",
-            "description": "Rating",
-            "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details"
-        }
-    ],
-    "engines": {
-        "vscode": "^1.10.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Firefox Light",
-                "uiTheme": "vs",
-                "path": "./themes/light.json"
-            },
-            {
-                "label": "Firefox Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark.json"
-            },
-            {
-                "label": "Firefox Dark (Classic)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark-classic.json"
-            }
-        ]
+    {
+      "url": "https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=B98EFF",
+      "description": "Rating",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details"
     }
+  ],
+  "engines": {
+    "vscode": "^1.10.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Firefox Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "Firefox Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/darker.json"
+      },
+      {
+        "label": "Firefox Light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      }
+    ]
+  }
 }
