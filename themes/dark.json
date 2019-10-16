@@ -174,7 +174,7 @@
       "name": "Library constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "#CC3D3D"
+        "foreground": "#6B89FF"
       }
     },
     {
@@ -216,6 +216,18 @@
       ],
       "settings": {
         "foreground": "#D7D7DB"
+      }
+    },
+    {
+      "scope": "storage.type.function.arrow.js",
+      "settings": {
+        "foreground": "#B98EFF"
+      }
+    },
+    {
+      "scope": "variable.language.this",
+      "settings": {
+        "foreground": "#FF7DE9"
       }
     },
     {
@@ -267,7 +279,8 @@
         "entity.other.attribute.name",
         "entity.other.attribute-name.html",
         "entity.other.attribute-name.id.html",
-        "entity.other.attribute-name.localname.xml"
+        "entity.other.attribute-name.localname.xml",
+        "entity.other.attribute-name.js"
       ],
       "settings": {
         "foreground": "#FF7DE9"
@@ -639,7 +652,7 @@
     "activityBar.foreground": "#FFFFFF",
     "activityBar.inactiveForeground": "#B1B1B3",
     "activityBar.border": "#3C3C3D",
-    "activityBarBadge.background": "#6B89FF",
+    "activityBarBadge.background": "#0A84FF",
     "activityBarBadge.foreground": "#FFFFFF",
     "sideBar.background": "#1B1B1D",
     "sideBar.foreground": "#B1B1B3",
@@ -701,6 +714,8 @@
     "editorCodeLens.foreground": "#515151",
     "editorBracketMatch.background": "#40444D",
     "editorBracketMatch.border": "#70737A",
+    "editorLightBulb.foreground": "#D99F2B",
+    "editorLightBulbAutoFix.foreground": "#D99F2B",
     "editorOverviewRuler.border": "#3C3C3D",
     "editorOverviewRuler.findMatchForeground": "#6B89FF",
     "editorOverviewRuler.rangeHighlightForeground": "#6B89FF",
