@@ -1,7 +1,7 @@
 {
   "name": "firefox-devtools-theme",
   "displayName": "Firefox Theme",
-  "description": "A syntax theme based on Mozilla Firefox' developer tools",
+  "description": "A VS Code theme based on the Mozilla Firefox' developer tools colors",
   "version": "4.6.0",
   "publisher": "Heron",
   "author": {
