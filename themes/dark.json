@@ -496,15 +496,17 @@
       }
     },
     {
-      "scope": "markup.underline",
+      "scope": "markup.heading",
       "settings": {
-        "fontStyle": "underline"
+        "foreground": "#86DE74",
+        "fontStyle": "bold"
       }
     },
     {
-      "scope": "markup.italic",
+      "scope": "markup.underline",
       "settings": {
-        "fontStyle": "italic"
+        "foreground": "#75BFFF",
+        "fontStyle": "underline"
       }
     },
     {
@@ -514,9 +516,9 @@
       }
     },
     {
-      "scope": "markup.heading",
+      "scope": "markup.italic",
       "settings": {
-        "foreground": "#FFFFFF"
+        "fontStyle": "italic"
       }
     },
     {
@@ -552,7 +554,7 @@
     {
       "scope": "markup.inline.raw",
       "settings": {
-        "foreground": "#86DE74"
+        "foreground": "#B98EFF"
       }
     },
     {
@@ -568,15 +570,22 @@
       }
     },
     {
-      "scope": "string.other.link.title.markdown",
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown"
+      ],
       "settings": {
-        "foreground": "#75BFFF"
+        "foreground": "#E9F4FE"
       }
     },
     {
-      "scope": "markup.underline.link.markdown",
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
+      ],
       "settings": {
-        "foreground": "#6B89FF"
+        "foreground": "#75BFFF",
+        "fontStyle": "italic"
       }
     },
     {
