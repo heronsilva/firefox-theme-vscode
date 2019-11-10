@@ -44,11 +44,6 @@
         "path": "./themes/dark.json"
       },
       {
-        "label": "Firefox Darker",
-        "uiTheme": "vs-dark",
-        "path": "./themes/darker.json"
-      },
-      {
         "label": "Firefox Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
