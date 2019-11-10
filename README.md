@@ -29,17 +29,13 @@
     A VS Code theme based on Mozilla Firefox' developer tools
 </h2>
 
-<br><br><br>
+<br>
 
-#### Dark version
-![Dark version](images/dark.png)
+## Preview
+![Theme Preview](images/theme-preview.gif)
 
-#### Light version
-![Light version](images/light.png)
+<br><br>
 
-#### Dark version (previous)
-![Dark version (previous)](images/dark-previous.png)
-
-<br><br><br>
-
-<h2 align="center">Enjoy \o/</h2>
+<h2 align="center">
+    Enjoy 🎉
+</h2>
