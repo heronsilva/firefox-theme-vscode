@@ -710,14 +710,14 @@
     // "editorOverviewRuler.infoForeground": "",
 
     // Errors and warnings
-    "editorError.foreground": "#a4000f",
-    "editorError.border": "#a4000f",
+    "editorError.foreground": "#A4000F",
+    // "editorError.border": "",
     "editorWarning.foreground": "#FFBF00",
-    "editorWarning.border": "#FFBF00",
+    // "editorWarning.border": "",
     "editorInfo.foreground": "#0A84FF",
-    "editorInfo.border": "#0A84FF",
+    // "editorInfo.border": "",
     "editorHint.foreground": "#058B00",
-    "editorHint.border": "#058B00",
+    // "editorHint.border": "",
 
     // Gutter
     // "editorGutter.background": "",
