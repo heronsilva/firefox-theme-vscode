@@ -64,10 +64,7 @@
     },
     {
       "name": "Class name",
-      "scope": [
-        "entity.name.class",
-        "entity.name.type"
-      ],
+      "scope": ["entity.name.class", "entity.name.type"],
       "settings": {
         "foreground": "#0074E8"
       }
@@ -104,20 +101,14 @@
     },
     {
       "name": "Built-in constant",
-      "scope": [
-        "constant.language",
-        "meta.preprocessor"
-      ],
+      "scope": ["constant.language", "meta.preprocessor"],
       "settings": {
         "foreground": "#4A4A4F"
       }
     },
     {
       "name": "User-defined constant",
-      "scope": [
-        "constant.character",
-        "constant.other"
-      ],
+      "scope": ["constant.character", "constant.other"],
       "settings": {
         "foreground": "#8000D7"
       }
@@ -153,10 +144,7 @@
     },
     /* C# */
     {
-      "scope": [
-        "entity.name.variable.property.cs",
-        "entity.name.function.cs"
-      ],
+      "scope": ["entity.name.variable.property.cs", "entity.name.function.cs"],
       "settings": {
         "foreground": "#4A4A4F"
       }
@@ -196,9 +184,7 @@
     },
     {
       "name": "Tag attribute",
-      "scope": [
-        "meta.tag.structure.any.html"
-      ],
+      "scope": ["meta.tag.structure.any.html"],
       "settings": {
         "foreground": "#8000D7"
       }
@@ -237,10 +223,7 @@
     },
     {
       "name": "Library class/type",
-      "scope": [
-        "support.type",
-        "support.class"
-      ],
+      "scope": ["support.type", "support.class"],
       "settings": {
         "foreground": "#8000D7"
       }
@@ -253,10 +236,7 @@
       }
     },
     {
-      "scope": [
-        "string.quoted.single",
-        "string.quoted.double"
-      ],
+      "scope": ["string.quoted.single", "string.quoted.double"],
       "settings": {
         "foreground": "#003EAA"
       }
@@ -333,9 +313,7 @@
       }
     },
     {
-      "scope": [
-        "meta.object.member"
-      ],
+      "scope": ["meta.object.member"],
       "settings": {
         "foreground": "#8000D7"
       }
@@ -353,10 +331,7 @@
       }
     },
     {
-      "scope": [
-        "variable.other.object",
-        "entity.name.type.module"
-      ],
+      "scope": ["variable.other.object", "entity.name.type.module"],
       "settings": {
         "foreground": "#8000D7"
       }
@@ -393,10 +368,7 @@
     },
     // JSON
     {
-      "scope": [
-        "support.type.property-nameon",
-        "meta.structure.arrayon"
-      ],
+      "scope": ["support.type.property-nameon", "meta.structure.arrayon"],
       "settings": {
         "foreground": "#0074E8"
       }
@@ -408,10 +380,7 @@
       }
     },
     {
-      "scope": [
-        "constant.languageon",
-        "constant.numericon"
-      ],
+      "scope": ["constant.languageon", "constant.numericon"],
       "settings": {
         "foreground": "#1F971B"
       }
@@ -512,17 +481,13 @@
       }
     },
     {
-      "scope": [
-        "keyword.operator.combinator.css"
-      ],
+      "scope": ["keyword.operator.combinator.css"],
       "settings": {
         "foreground": "#D9DBDF"
       }
     },
     {
-      "scope": [
-        "support.type.property-name.css"
-      ],
+      "scope": ["support.type.property-name.css"],
       "settings": {
         "foreground": "#058B00"
       }
@@ -652,7 +617,7 @@
     "dropdown.background": "#EDEDF0",
     // "dropdown.listBackground": "",
     "dropdown.border": "#0A84FF",
-    "dropdown.foreground": "#D9DBDF",
+    "dropdown.foreground": "#505253",
 
     /* Input Control */
     "input.background": "#FFFFFF",
