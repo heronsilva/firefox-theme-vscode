@@ -2,7 +2,7 @@
   "name": "firefox-devtools-theme",
   "displayName": "Firefox Theme",
   "description": "A VS Code theme based on the Mozilla Firefox' developer tools colors",
-  "version": "4.10.3",
+  "version": "4.10.4",
   "publisher": "Heron",
   "author": {
     "name": "Heron Silva",
@@ -15,17 +15,17 @@
   "icon": "images/icon.png",
   "badges": [
     {
-      "url": "https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg.png?label=Release&style=flat-square&colorA=434346&colorB=B98EFF",
+      "url": "https://vsmarketplacebadges.dev/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=B98EFF",
       "description": "Current version",
       "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
     },
     {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg.png?label=Installs&style=flat-square&colorA=434346&colorB=B98EFF",
+      "url": "https://vsmarketplacebadges.dev/installs/Heron.firefox-devtools-theme.svg?label=Installs&style=flat-square&colorA=434346&colorB=B98EFF",
       "description": "Installs",
       "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
     },
     {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg.png?label=Rating&style=flat-square&colorA=434346&colorB=B98EFF",
+      "url": "https://vsmarketplacebadges.dev/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=B98EFF",
       "description": "Rating",
       "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details"
     }
@@ -51,7 +51,6 @@
     ]
   },
   "devDependencies": {
-    "@types/vscode": "^1.99.1",
     "chokidar": "^4.0.3"
   }
 }
