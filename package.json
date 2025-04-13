@@ -2,7 +2,7 @@
   "name": "firefox-devtools-theme",
   "displayName": "Firefox Theme",
   "description": "A VS Code theme based on the Mozilla Firefox' developer tools colors",
-  "version": "4.10.2",
+  "version": "4.10.3",
   "publisher": "Heron",
   "author": {
     "name": "Heron Silva",
@@ -49,5 +49,9 @@
         "path": "./themes/light.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.1",
+    "chokidar": "^4.0.3"
   }
 }
