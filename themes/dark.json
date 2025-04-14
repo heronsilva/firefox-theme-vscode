@@ -10,7 +10,8 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#939393"
+        "foreground": "#939393",
+        "fontStyle": "italic"
       }
     },
     {
@@ -205,12 +206,6 @@
       }
     },
     {
-      "scope": "storage.type.function.arrow.js",
-      "settings": {
-        "foreground": "#B98EFF"
-      }
-    },
-    {
       "scope": ["variable.language.this", "variable.language.self"],
       "settings": {
         "foreground": "#DF80FF",
@@ -269,9 +264,16 @@
       }
     },
     {
-      "scope": ["source.lua", "source.toml"],
+      "scope": ["source.lua", "source.toml", "source.python"],
       "settings": {
         "foreground": "#B1B1B3"
+      }
+    },
+    {
+      "scope": ["string.quoted.docstring"],
+      "settings": {
+        "foreground": "#87DE74AA",
+        "fontStyle": "italic"
       }
     },
     {
@@ -577,9 +579,24 @@
         "foreground": "#E9F4FE",
         "fontStyle": "underline"
       }
+    },
+    {
+      "scope": "storage.type.function.arrow.js",
+      "settings": {
+        "foreground": "#B98EFF"
+      }
+    },
+    {
+      "scope": ["storage.type.function"],
+      "settings": {
+        "foreground": "#DF80FF"
+      }
     }
   ],
   "semanticTokenColors": {
+    "selfKeyword": {
+      "foreground": "#DF80FF"
+    },
     "tomlArrayKey": {
       "foreground": "#B98EFF",
       "fontStyle": ""
@@ -589,24 +606,22 @@
       "fontStyle": ""
     },
     "namespace": {
-      "foreground": "#B98EFF",
-      "fontStyle": "bold underline"
+      "foreground": "#B98EFF"
     },
     "class": "#B98EFF",
-    "class.declaration": "#75BFFF",
+    "class.declaration": "#B98EFF",
     "enum": {
-      "foreground": "#B98EFF"
+      "foreground": "#DF80FF"
     },
     "interface": {
       "foreground": "#B98EFF",
       "fontStyle": ""
     },
     "interface.defaultLibrary": {
-      "fontStyle": "bold"
+      "fontStyle": "italic"
     },
     "typeParameter": {
-      "foreground": "#87DE74",
-      "fontStyle": "bold"
+      "foreground": "#87DE74"
     },
     "type": "#B98EFF",
     "parameter": "#75BFFF",
@@ -615,10 +630,9 @@
     "enumMember": "#75BFFF",
     "function": "#87DE74",
     "method": "#87DE74",
-    "comment": "#909090",
+    "comment": { "foreground": "#909090", "fontStyle": "italic" },
     "string": "#6B89FF",
-    "keyword": "#B98EFF",
-    "operator": "#ff0"
+    "keyword": "#B98EFF"
   },
   "colors": {
     "foreground": "#B1B1B3",
@@ -739,13 +753,13 @@
     "editorLineNumber.activeForeground": "#FBFBFE",
     "editorBracketMatch.background": "#4A4A4F",
     "editorBracketMatch.border": "#5A5A5F",
-    "editorBracketHighlight.foreground1": "#B1B1B3",
+    "editorBracketHighlight.foreground1": "#909090",
     "editorBracketHighlight.foreground2": "#6B89FF",
-    "editorBracketHighlight.foreground3": "#75BFFF",
-    "editorBracketHighlight.foreground4": "#FE7DE9",
-    "editorBracketHighlight.foreground5": "#FFFFB4",
-    "editorBracketHighlight.foreground6": "#87DE74",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#F13C00",
+    "editorBracketHighlight.foreground3": "#FE7DE9",
+    "editorBracketHighlight.foreground4": "#B98EFF",
+    "editorBracketHighlight.foreground5": "#87DE74",
+    "editorBracketHighlight.foreground6": "#FFFFB4",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#F00",
     "editorGutter.background": "#232327",
     "editorGutter.modifiedBackground": "#75BFFF",
     "editorGutter.addedBackground": "#87DE74",
