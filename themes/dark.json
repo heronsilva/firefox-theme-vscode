@@ -231,9 +231,9 @@
       }
     },
     {
-      "scope": "entity.name.type.class",
+      "scope": ["entity.name.type.class", "support.class"],
       "settings": {
-        "foreground": "#75BFFF"
+        "foreground": "#B98EFF"
       }
     },
     {
