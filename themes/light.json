@@ -598,7 +598,7 @@
     "dropdown.background": "#EDEDF0",
     // "dropdown.listBackground": "",
     "dropdown.border": "#0A84FF",
-    "dropdown.foreground": "#D9DBDF",
+    "dropdown.foreground": "#505253",
 
     /* Input Control */
     "input.background": "#FFFFFF",
